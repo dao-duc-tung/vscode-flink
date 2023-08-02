@@ -33,10 +33,12 @@ mvn verify
 # mvn install
 # mvn deploy
 
+# Doesn't work with flink
 # run in terminal
 # required running: mvn package
 java -cp target/artifact-id-tung-1-1.0-SNAPSHOT.jar com.groupid.tung.App
 
+# Work with flink
 # debug in vscode
 # required running: mvn compile
 # just run debug the file App.java
